@@ -1,2 +1,2 @@
-# first-landing
+# first landing
 My first web page
