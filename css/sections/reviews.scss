@@ -1,0 +1,101 @@
+.container__reviews{
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 65px;
+}
+
+.reviews__title{
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #222222;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Montserrat";
+    margin-bottom: 20px;
+}
+
+
+.reviews__subtitle{
+    font-size: 20px;
+    font-family: "Roboto Slab";
+    color: #777777;
+    margin-bottom: 90px;
+    text-align: center;
+}
+
+.reviews__box{
+    width: 940px;
+    height: 490px;
+    margin: auto;
+}
+
+.reviews__message{
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.reviews__message:last-child{
+    margin-bottom: 0px;
+}
+
+.message__avatar{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background-color: #f9f9f9;
+    margin-right: 45px;
+}
+
+.message__avatar:last-child{
+    margin-right: 0px;
+    margin-left: 45px;
+}
+
+.message__box{
+    width: 645px;
+    height: 170px;
+    background-color: #f9f9f9;
+    text-align: center;
+    margin-top: 25px;
+    position: relative;
+}
+
+.message__box::after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom: 25px solid #f9f9f9;
+    position: absolute;
+    top: 70px;
+    left: -25px;
+    transform: rotate(270deg);
+}
+
+.second::after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom: 25px solid #f9f9f9;
+    position: absolute;
+    top: 70px;
+    left: 650px;
+    transform: rotate(90deg);
+}
+
+.message__text{
+    font-size: 22px;
+    font-family: "Roboto Slab";
+    color: #777777;
+    margin-top: 40px;
+}
+
+.message__writer{
+    font-size: 18px;
+    font-family: "Roboto Slab";
+    color: #7cc576;
+    margin-top: 20px;
+}

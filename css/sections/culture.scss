@@ -1,0 +1,97 @@
+.container__culture{
+    width: 100%;
+    background-color: #f9f9f9;
+    padding-top: 100px;
+    height: 560px;
+}
+
+.culture__title{
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #222222;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Montserrat";
+    margin-bottom: 20px;
+}
+
+.culture__subtitle{
+    font-size: 20px;
+    font-family: "Roboto Slab";
+    color: #777777;
+    margin-bottom: 90px;
+    text-align: center;
+}
+
+.values__container{
+    width: 940px;
+    margin: auto;
+}
+
+.values__info{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin-bottom: 25px;
+}
+
+.values__icon{
+    width: 90px;
+    height: 90px;
+    border: 2px solid #777777;
+    border-radius: 50%;
+}
+
+.values__img{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.graph{
+    padding-left: 25px;
+}
+
+.values__line{
+    width: 170px;
+    height: 2px;
+    background-color: #777777;
+}
+
+.culture__info{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.values__info__under{
+    width: 1150px;
+    margin: auto;
+}
+
+.culture__item:last-child{
+    margin-right: 0;
+}
+
+.culture__item__title{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Montserrat";
+    color: #222222;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.culture__item__subtitle{
+    font-size: 14px;
+    font-family: "Roboto Slab";
+    color: #777777;
+}
+
+.culture__item{
+    width: 290px;
+    text-align: center;
+}

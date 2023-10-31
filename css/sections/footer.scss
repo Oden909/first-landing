@@ -1,0 +1,54 @@
+footer{
+    width: 100%;
+    display: flex;
+    min-height: 100px;
+}
+
+.footer__text{
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: #555555;
+    text-align: center;
+    margin: auto;
+}
+
+.footer__socials{
+    width: 200px;
+    margin: auto;
+}
+
+.footer__info{
+    display: flex;
+    list-style: none;
+}
+
+.footer__icon__circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #222222;
+}
+
+.footer__item{
+    margin-right: 10px;
+}
+
+.footer__item:last-child{
+    margin-right: 0;
+}
+
+.twitter{
+    padding: 12px 11px;
+}
+
+.facebook{
+    padding: 10px 14px;
+}
+
+.pinterest{
+    padding: 10px 12px;
+}
+
+.google{
+    padding: 11px 13px;
+}

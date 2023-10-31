@@ -1,0 +1,166 @@
+.latest-project__container{
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+.latest-project__title{
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #222222;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Montserrat";
+    margin-bottom: 20px;
+}
+
+.latest-project__subtitle{
+    font-size: 20px;
+    font-family: "Roboto Slab";
+    color: #777777;
+    margin-bottom: 90px;
+    text-align: center;
+}
+
+.latest-project__sides{
+    display: flex;
+    background-image: url(../images/ipad.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+.latest-project__left{
+    width: 700px;
+
+    margin-left: 230px;
+}
+
+.ipad__img{
+    margin-left: 280px;
+}
+
+.latest-project__left__title{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Montserrat";
+    color: #222222;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.latest-project__left__subtitle{
+    font-size: 16px;
+    font-family: "Roboto Slab";
+    color: #777777;
+    margin-bottom: 20px;
+}
+
+.latest-project__opportunities{
+    padding: 0;
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.opportunities__item{
+    margin-bottom: 15px;
+    height: 75px;
+}
+
+.opportunities__block{
+    display: flex;
+    align-items: center;
+}
+
+.oportunities__icon{
+    width: 70px;
+    height: 70px;
+    border: 3px solid #000000;
+    border-radius: 50%;
+    float: left;
+    margin-right: 15px;
+}
+
+.opportunities-icon{
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.locked{
+    padding-left: 21px;
+}
+
+.opportunities__title{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Montserrat";
+    color: #222222;
+}
+
+.opportunities__subtitle{
+    font-size: 16px;
+    font-family: "Roboto Slab";
+    color: #777777;
+}
+
+.opportunities__text{
+    font-size: 16px;
+    font-family: "Roboto Slab";
+    color: #777777;
+}
+
+.last__text{
+    margin-bottom: 25px;
+}
+
+.view__details__block{
+    display: flex;
+}
+
+.view__details_btn{
+    text-transform: uppercase;
+    color: #7cc576;
+    font-size: 16px;
+    font-family: "Montserrat";
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.arrow-1{
+    cursor: pointer;
+    position: relative;
+    width: 10px;
+    height: 10px;
+}
+
+.arrow-1 div{
+    position: relative;
+    top: 10px;
+    width: 12px;
+    height: 2px;
+    background-color: #7cc576;
+    left: 1px;
+    display: block;
+    margin-left: 2px;
+}
+
+.arrow-1 div:after {
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 2px;
+    top: -2px;
+    right: 1px;
+    background-color: #7cc576;
+    transform: rotate(45deg);
+}
+
+.arrow-1 div::before {
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 2px;
+    top: 2px;
+    right: 1px;
+    background-color: #7cc576;
+    transform: rotate(-45deg);
+}

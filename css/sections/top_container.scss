@@ -1,0 +1,62 @@
+.top__container{
+    width: 100%;
+    height: 530px;
+    background-image: url(../images/top_container_background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding-top: 120px;
+}
+
+.top__container:before{
+    content: "";
+    position: absolute;
+    background-color: rgba(0,0,0,0.7);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.top__container__content{
+    width: 590px;
+    position: relative;
+    margin: auto;
+}
+
+.top__container__title{
+    font-size: 60px;
+    color: #ffffff;
+    font-weight:bold;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.top__container__text{
+    text-decoration: none;
+    color: #cccccc;
+    font-size: 20px;
+    font-family: "Roboto Slab";
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.top__container__button{
+    text-align: center;
+}
+
+.button-1{
+    display: inline-block;
+    background: #7cc576;
+    padding: 25px 50px;
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-radius: 90px;
+    font-weight: bold;
+    font-family: "Montserrat";
+}
